@@ -32,12 +32,16 @@ const HeroSection = () => (
           initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
+          <a href="#pricing">
           <Button variant="hero" size="xl">
             Get Started <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
+          </a>
+          <a href="#contact">
           <Button variant="hero-outline" size="xl">
             <Play className="mr-2 h-5 w-5" /> Book Demo
           </Button>
+          </a>
         </motion.div>
       </div>
 
