@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
+const api = import.meta.env.VITE_API_URL;
+console.log(api);
+
 const navLinks = [
   { label: "Solutions", href: "#solutions" },
   { label: "Features", href: "#features" },
@@ -16,7 +19,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/80 backdrop-blur-lg border-b border-border/50">
       <div className="container-narrow flex items-center justify-between h-16 px-4">
-        <a href="#" className="text-xl font-bold text-gradient">Ready Taxi</a>
+        <a href="" className="text-xl font-bold text-gradient">Ready Taxi</a>
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (

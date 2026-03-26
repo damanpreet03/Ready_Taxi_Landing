@@ -8,9 +8,9 @@ const HeroSection = () => (
     <div className="container-narrow">
       <div className="text-center max-w-3xl mx-auto mb-12">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
-          <span className="inline-block px-4 py-1.5 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6">
+          {/* <span className="inline-block px-4 py-1.5 rounded-full bg-accent text-accent-foreground text-sm font-medium mb-6">
             🚀 Trusted by 100+ businesses worldwide
-          </span>
+          </span> */}
         </motion.div>
 
         <motion.h1
@@ -33,14 +33,14 @@ const HeroSection = () => (
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <a href="#pricing">
-          <Button variant="hero" size="xl">
-            Get Started <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+            <Button variant="hero" size="xl">
+              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
           </a>
           <a href="#contact">
-          <Button variant="hero-outline" size="xl">
-            <Play className="mr-2 h-5 w-5" /> Book Demo
-          </Button>
+            <Button variant="hero-outline" size="xl">
+              <Play className="mr-2 h-5 w-5" /> Book Demo
+            </Button>
           </a>
         </motion.div>
       </div>
