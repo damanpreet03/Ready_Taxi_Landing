@@ -15,7 +15,7 @@ const FinalCTASection = () => (
             Launch Your Taxi Business Today
           </h2>
           <p className="text-primary-foreground/80 max-w-lg mx-auto mb-8 text-lg">
-            Join 100+ businesses already using RideFleet to power their operations.
+            Join 100+ businesses already using Ready Taxi to power their operations.
           </p>
           <Button variant="secondary" size="xl">
             Get Started Now <ArrowRight className="ml-2 h-5 w-5" />

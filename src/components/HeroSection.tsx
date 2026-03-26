@@ -46,7 +46,7 @@ const HeroSection = () => (
         className="relative max-w-5xl mx-auto"
       >
         <div className="card-elevated-xl overflow-hidden">
-          <img src={heroDashboard} alt="RideFleet taxi management dashboard" width={1280} height={800} className="w-full h-auto" />
+          <img src={heroDashboard} alt="Ready Taxi taxi management dashboard" width={1280} height={800} className="w-full h-auto" />
         </div>
         <div className="absolute -bottom-4 -left-4 -right-4 h-20 bg-gradient-to-t from-background to-transparent pointer-events-none" />
       </motion.div>

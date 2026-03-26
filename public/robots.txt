@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://ridefleet.app/sitemap.xml
+Sitemap: https://ready taxi.app/sitemap.xml

@@ -20,7 +20,7 @@ const ContactSection = () => {
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <span className="text-sm font-semibold text-primary uppercase tracking-wider">Contact</span>
+          <span className="text-sm font-semibold  uppercase tracking-wider">Contact</span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
             Get a Custom Plan
           </h2>
@@ -29,7 +29,7 @@ const ContactSection = () => {
 
         {submitted ? (
           <motion.div initial={{ scale: 0.9, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="card-elevated-xl p-12 text-center">
-            <CheckCircle className="h-16 w-16 text-primary mx-auto mb-4" />
+            <CheckCircle className="h-16 w-16  mx-auto mb-4" />
             <h3 className="text-2xl font-bold text-foreground mb-2">Request Submitted!</h3>
             <p className="text-muted-foreground">Our team will contact you within 24 hours.</p>
           </motion.div>

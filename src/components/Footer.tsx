@@ -7,7 +7,7 @@ const Footer = () => (
         <div className="sm:col-span-1">
           <div className="flex items-center gap-2 mb-3">
             <Car className="h-6 w-6 text-primary" />
-            <span className="text-lg font-bold text-foreground">RideFleet</span>
+            <span className="text-lg font-bold text-foreground">Ready Taxi</span>
           </div>
           <p className="text-sm text-muted-foreground">The all-in-one taxi booking & fleet management platform.</p>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-border pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-        <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} RideFleet. All rights reserved.</p>
+        <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Ready Taxi. All rights reserved.</p>
         <div className="flex gap-4">
           {["Twitter", "LinkedIn", "GitHub"].map((s) => (
             <a key={s} href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">{s}</a>
