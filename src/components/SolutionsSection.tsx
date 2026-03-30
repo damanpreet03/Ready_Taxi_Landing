@@ -1,12 +1,43 @@
 import { motion } from "framer-motion";
-import { Shield, Users, Truck, Building2, UserCheck } from "lucide-react";
+import { Shield, Users, Truck, Building2, UserCheck, Smartphone } from "lucide-react";
 
 const solutions = [
-  { icon: Shield, title: "Admin Panel", desc: "Full system control with pricing & analytics management.", color: "text-primary" },
-  { icon: Users, title: "Customer Panel", desc: "Book rides, manage trips & payments seamlessly.", color: "text-primary" },
-  { icon: Truck, title: "Fleet Panel", desc: "Manage vehicles & drivers with real-time oversight.", color: "text-primary" },
-  { icon: Building2, title: "Corporate Panel", desc: "Business ride management with reports & invoicing.", color: "text-primary" },
-  { icon: UserCheck, title: "Agent Panel", desc: "Third-party bookings & commission tracking.", color: "text-primary" },
+  {
+    icon: Shield,
+    title: "Admin Panel",
+    desc: "Central dashboard for owners to monitor bookings, drivers, earnings, taxes, and overall system performance.",
+    color: "text-primary"
+  },
+  {
+    icon: Users,
+    title: "Customer Panel",
+    desc: "Book rides easily, manage trips, and handle payments with a smooth user experience.",
+    color: "text-primary"
+  },
+  {
+    icon: Truck,
+    title: "Fleet Panel",
+    desc: "For fleet owners to onboard drivers, manage vehicles, assign trips, and track driver activity and performance in real time.",
+    color: "text-primary"
+  },
+  {
+    icon: Building2,
+    title: "Corporate Panel",
+    desc: "Designed for businesses to manage employee travel, corporate bookings, and centralized billing.",
+    color: "text-primary"
+  },
+  {
+    icon: UserCheck,
+    title: "Agent Panel",
+    desc: "Enable agents to book rides, manage customers, and earn commissions through the platform.",
+    color: "text-primary"
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile Apps",
+    desc: "Dedicated apps for customers and drivers—book rides easily while drivers manage trips, navigation, and earnings on the go.",
+    color: "text-primary"
+  },
 ];
 
 const SolutionsSection = () => (
